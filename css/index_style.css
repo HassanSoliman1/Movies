@@ -1,0 +1,145 @@
+*
+{
+ 
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body
+{
+    background-color: #000000f2;
+    
+}
+
+.inputSearch
+{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    padding: 80px;
+}
+
+
+.inputSearch input
+{
+
+    text-align: center;
+    width: 48%;
+    margin-left: 20px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    background-color: transparent !important;
+    
+}
+
+.parent{
+
+    position: relative;
+    overflow: hidden;
+    padding: 17px;
+   
+   
+
+}
+
+.parent img
+{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.layer
+{
+    background-color: rgba(255,255,255,.7);
+    width: 100%;
+    height:100%;
+    position:absolute;
+    top: 100%;
+    left: 0;
+    transition: top 0.8s;
+    
+}
+
+.parent:hover .layer
+{
+   
+    top: 0%;
+
+    
+}
+
+.layer h1 {
+
+    font-weight:bold;
+    font-size: 26px;
+    
+}
+
+.layer p {
+
+    font-weight:bold;
+    font-size: 18px;
+    
+}
+
+.inputContacts
+{
+    display:flex;
+    justify-content: center;
+    width: 90%;
+    padding: 10px;
+    /* margin: auto; */
+    
+}
+
+.inputContacts input
+{
+    
+    text-align: center;
+    margin-left: 30px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    background-color: transparent !important;
+    
+}
+
+.sideMenu
+{
+    width: 60px;
+    height: 659px;
+    position:fixed;
+    top:0%;
+    left:0;
+    background-color: #ffff;
+    text-align: center;
+    
+}
+
+.sideMenu img
+{
+    width: 30px;
+    height: 50px;
+} 
+
+.icon i
+{
+    font-size: 25px;
+    color:#000000;
+    margin-top: 250px;
+
+}
+
+.sideMenu .global
+{
+    margin-top: 230px;
+}
+
+.sideMenu .share
+{
+    font-size: 18px;
+    margin-top: 16px;
+}
